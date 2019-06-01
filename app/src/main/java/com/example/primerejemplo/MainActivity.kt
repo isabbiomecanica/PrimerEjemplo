@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "Has pulsado el boton", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "Has pulsado el boton del sobre", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
     }
